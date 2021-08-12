@@ -1,168 +1,198 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300&family=Lexend+Deca&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200&display=swap');
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
-h1{
-    color: hsl(0, 0%, 95%);
-    font-family: 'Big Shoulders Display', cursive;
-   
-    font-weight: 700;
-    
-    
-}
 body{
-    background-color: hsl(0, 0%, 95%); 
-    font-size: 15px;
-}
-img{
-    margin-top: 2rem;
-    margin-left: 1rem;
+   
 }
 .container{
-    display: flex;
-    flex-direction: row;
     margin: auto;
-    margin-top: 5rem;
+    width: 50%;
+    margin-top: 2rem;
+    
+}
+.pic{
     width: 100%;
-    background-color: white;
-    padding: 3rem 9rem 3rem 9rem;
-    
-    box-shadow: 5px 5px 5px 5px grey;
 }
-.column{
-   width: 100%; 
-height: 60vh;
+.logo{
+    margin-left: 15rem;
+  
 }
-p{
-    color: hsla(0, 0%, 100%, 0.75); 
-    margin-left: 2rem;
+.row1{
+    margin: 1rem;
+    margin-left: 10rem;
+    font-size: 25px;
+    color: hsl(0, 0%, 59%);
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+}
+.row2{
    
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+    margin-left: 15rem;
+    color: hsl(209, 33%, 12%);
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
 }
-
-.column:first-child{
-    background-color: hsl(31, 77%, 52%);
-}
-.column:nth-child(2){
-    background-color: hsl(184, 100%, 22%);
-}
-.column:nth-child(3){
-    background-color: hsl(179, 100%, 13%);
-}
-.cta{
-    background-color: #f2f2f2;
-    padding: 10px 25px;
-    text-decoration: none;
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    font-size: 0.7em;
-    border-radius: 50px;
-    margin: 0;
-  position: absolute;
- margin-left: 2rem;
-  margin-top: 30px;
-}
-.cta:hover{
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-}
-.a1{
-    color: hsl(31, 77%, 52%);
-}
-.a2{
-color: hsl(184, 100%, 22%);
-}
-.a3{
-color:hsl(179, 100%, 13%);
-}
-h1{
+strong{
+    color: black;
+    font-weight: 700;
     
-    margin: 2rem 0 2rem 2rem;
+}
+input{
+    width: 50%;
+    border-radius: 5rem;
+    padding: 0.5rem 0 0.5rem 0;
+    opacity: 0.2;
+
+}
+.row3{
+    margin-top: 3rem;
+}
+.form{
+    margin-top: 1rem;
+    margin-left: 8rem;
+}
+::placeholder {
+    padding-left: 1rem;
+    opacity: 0.5;
+}
+.btn{
+    width: 30%;
+    border-radius: 5rem;
+    padding: 0.5rem 0 0.5rem 0;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+}
+.btn:hover{
+    background-color: hsl(223, 84%, 63%);
+opacity: 0.7;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    border: hsl(223, 100%, 88%) 1px solid;
+    border-radius: 50%;
+    margin: 0.5rem;
+    padding: 0.4rem;
+    font-size: 10px;
+    
+}
+.soc{
+    margin-left: 12rem;
+}
+a:hover{
+    color: #ffff;
+    background-color: hsl(223, 84%, 63%);
+}
+footer{
+
+margin-top: 3rem;
+margin-bottom: 2rem;
+}
+footer p{
+    font-size: 12px;
+    margin-left: 10rem;
+    color: hsl(0, 0%, 59%);
+    opacity: 0.7;
+    
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) {
     .container{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        margin-top: 0.1rem;
         
-       width: 100%;
-        padding: 1rem 2rem 1rem 2rem;
-           
+        width: 100%;
+        margin-top: 2rem;
+        
     }
-    .column{
-        height: 55vh;
+    .logo{
+        margin-left: 8rem;
+        width: 30%;
+      
     }
-    p{
-        color: hsla(0, 0%, 100%, 0.75); 
-        margin-left: 1rem;
-       margin-right: 1rem;
-     
-        font-family: 'Lexend Deca', sans-serif;
-        font-weight: 400;
-        font-size: 15px;
+    .row1{
+        margin: 1rem;
+        margin-left: 4rem;
+        font-size: 20px;
+        
     }
-    h1{
-        font-size: 25px;
-        margin: 1em 0 2rem 1rem;
+    .row2{
+   
+        margin-left: 6rem;
+        font-size: 12px;
+        font-weight: 600;
     }
-    img{
-        width: 60px;
+    .form{
+        
+        margin-top: 1rem;
+        margin-left: 2rem;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
     }
-    .cta{
-        background-color: #f2f2f2;
-        padding: 6px 15px;
-        text-decoration: none;
-        font-family: 'Lexend Deca', sans-serif;
-        font-weight: 400;
-        font-size: 0.5em;
-        border-radius: 50px;
-        z-index: 1;
-        display: inline;
-      margin-top: 30px;
-     margin-left: 1rem;
-     
+    input{
+        width: 90%;
+        margin-bottom: 00.5rem;
+       }
+       .btn{
+        width: 90%;
     }
-}
-
-@media only screen and (min-width: 426px) {
-    .container{
-        display: flex;
-        flex-direction: column;
-        margin: 0;
+    
+    .pic{
         width: 100%;
        
+       
     }
-   .column{
-       height: 35vh;
-   }
-   p{
-       font-size: 18px;
-   }
+    footer{
+       
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+        }
+        .soc{
+            margin-left: 7rem;
+        }
+        footer p{
+            margin-left: 5rem;
+        }
 }
+@media only screen and (min-width: 426px){
+    .container{
+        
+        width: 100%;
+        margin-top: 2rem;
+        
+    }
+    .row2{
+   
+        
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .soc{
+        margin-left: 20rem;
+    }
+    footer p{
+        margin-left: 18rem;
+    }
+}
+
 @media only screen and (min-width: 961px){
     .container{
-        display: flex;
-        flex-direction: row;
         margin: auto;
-        margin-top: 5rem;
-        width: 75%;
-        background-color: white;
-        padding: 3rem 9rem 3rem 9rem;
+        width: 50%;
+        margin-top: 2rem;
         
-        box-shadow: 5px 5px 5px 5px grey;
     }
-    .column{
-        height: 64vh;
+    .soc{
+        margin-left: 12rem;
+    }
+    footer p{
+        font-size: 12px;
+        margin-left: 10rem;
+        color: hsl(0, 0%, 59%);
+        opacity: 0.7;
+        
     }
 }
