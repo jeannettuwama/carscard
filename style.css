@@ -38,6 +38,7 @@ img{
 .column{
    width: 100%; 
 height: 70vh;
+
 }
 p{
     color: hsla(0, 0%, 100%, 0.75); 
@@ -50,12 +51,14 @@ p{
 
 .column:first-child{
     background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 0 0 7px;
 }
 .column:nth-child(2){
     background-color: hsl(184, 100%, 22%);
 }
 .column:nth-child(3){
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0 7px 7px 0;
 }
 .cta{
     background-color: #f2f2f2;
@@ -99,6 +102,14 @@ h1{
        width: 100%;
         padding: 1rem 2rem 1rem 2rem;
            
+    }
+    .column:first-child{
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 7px 7px 0 0;
+    }
+    .column:nth-child(3){
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 0 7px 7px;
     }
     .column{
         height: 55vh;
@@ -149,6 +160,14 @@ h1{
    p{
        font-size: 18px;
    }
+   .column:first-child{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 7px 0 0;
+}
+.column:nth-child(3){
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 7px 7px;
+}
 }
 @media only screen and (min-width: 961px){
     .container{
@@ -164,5 +183,16 @@ h1{
     }
     .column{
         height: 70vh;
+    }
+    .column:first-child{
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 7px 0 0 7px;
+    }
+    .column:nth-child(2){
+        background-color: hsl(184, 100%, 22%);
+    }
+    .column:nth-child(3){
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 7px 7px 0;
     }
 }
